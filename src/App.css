@@ -1,0 +1,76 @@
+.App {
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 30vmin;
+  width: 30vmin;
+  pointer-events: none;
+  border-radius: 5%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Player{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+}
+.Coumpter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+}
+.gameContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.selectImg{
+  height:15vmin;
+  width: 15vmin;
+  border-radius: 15%;
+  border: #0b0c0c;
+  border-width: 2px;
+  border-style: solid;
+  margin-left: 10px;
+}
+.selectContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
